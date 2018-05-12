@@ -1,18 +1,13 @@
-#
-# Theme Name  : Two/Two Theme for Jekyll
-# Description : Two/Two is a dark theme for Jekyll Based on various color combination.
-#               It was developed using Jekyll Now by @barryclark.
-#               It is totally customisable and you can change the various colors present
-#
-
-# theme: two-by-two
-# theme-url: http://shubhkirtisharma.com/two-by-two
-# theme-base: jekyll-now
-
-#
-# These are the default Jekyll Now settings. Modify them according to your needs
-#
-
+---
+title: Two By Two
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 name: Two/Two
 author: Shubhkirti Sharma
 description: Two/Two is a flat dark theme for Jekyll Blogs
@@ -20,38 +15,34 @@ url: http://shubhkirtisharma.com
 avatar: images/two-by-two.svg
 email: shubhkirt.work@gmail.com
 footer-links:
-  dribbble:
-  email:
-  facebook:
-  flickr:
+  dribbble: 
+  email: 
+  facebook: 
+  flickr: 
   github: wowufoundme/two-by-two
-  instagram:
-  linkedin:
-  pinterest:
-  rss:
+  instagram: 
+  linkedin: 
+  pinterest: 
+  rss: 
   twitter: __shubhkirti__
-  stackoverflow:
-  youtube:
-  googleplus:
-disqus:
-google_analytics:
-
-# Jekyll Settings
-baseurl: ""
-permalink: /:title/
-source: .
-destination: ./_site
+  stackoverflow: 
+  youtube: 
+  googleplus: 
+disqus: 
+google_analytics: 
+baseurl: ''
+permalink: "/:title/"
+source: "."
+destination: "./_site"
 version: v3.6.2
 kramdown:
   input: GFM
   syntax_highlighter: rouge
   syntax_highlighter_opts:
-    css_class: 'highlight'
+    css_class: highlight
 sass:
   style: :compressed
-#Sass can also be expanded using :expanded value
-
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - coderay
+- jekyll-paginate
+- jekyll-sitemap
+- coderay
